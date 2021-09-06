@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Frotas", "Localiza.Frotas\Localiza.Frotas.csproj", "{55A17D27-3549-4BB7-A943-5646F754FEF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABF41759-E897-4533-90DD-9E97FEC8D667} = {ABF41759-E897-4533-90DD-9E97FEC8D667}
+		{AFC046E7-968D-4226-B45E-0E07A42E88FE} = {AFC046E7-968D-4226-B45E-0E07A42E88FE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Frotas.Domain", "Localiza.Frotas.Domain\Localiza.Frotas.Domain.csproj", "{AFC046E7-968D-4226-B45E-0E07A42E88FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Frotas.Infra", "Localiza.Frotas.Infra\Localiza.Frotas.Infra.csproj", "{ABF41759-E897-4533-90DD-9E97FEC8D667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A17D27-3549-4BB7-A943-5646F754FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A17D27-3549-4BB7-A943-5646F754FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A17D27-3549-4BB7-A943-5646F754FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A17D27-3549-4BB7-A943-5646F754FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC046E7-968D-4226-B45E-0E07A42E88FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC046E7-968D-4226-B45E-0E07A42E88FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC046E7-968D-4226-B45E-0E07A42E88FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC046E7-968D-4226-B45E-0E07A42E88FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF41759-E897-4533-90DD-9E97FEC8D667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF41759-E897-4533-90DD-9E97FEC8D667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF41759-E897-4533-90DD-9E97FEC8D667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF41759-E897-4533-90DD-9E97FEC8D667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {156A9EDA-A6DC-4A97-8811-8F9AFBD34536}
+	EndGlobalSection
+EndGlobal
